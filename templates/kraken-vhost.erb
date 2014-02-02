@@ -1,0 +1,10 @@
+<VirtualHost <%= @bind_address %>:80 >
+  DocumentRoot <%= @docroot %>
+  ServerName <%= @server_name %>
+
+  WSGIApplicationGroup kraken
+  WSGIScriptAlias / <%= @docroot %>/kraken/kraken/wsgi.py
+  WSGIDaemonProcess kraken processes=5 threads=1
+
+  Alias /static/ <%= @docroot %>/kraken/kraken/static/
+</VirtualHost>

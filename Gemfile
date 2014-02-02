@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rake', '>=10.1.0'
+gem 'puppet', '~>3.1.0'
+gem 'puppet-lint', '~>0.3.2'
+gem 'puppetlabs_spec_helper', '~>0.4.0'
+gem 'ci_reporter', '>=1.8.2'
+gem 'rspec', '>=2.13.0'
+gem 'rspec-core', '>=2.13.0'
+gem 'rspec-puppet', '>=0.1.6'
