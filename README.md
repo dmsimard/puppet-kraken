@@ -5,6 +5,13 @@ puppet-kraken
 
 Works for me on Ubuntu 12.04, should probably work for RHEL-like too.
 
+Dependencies
+===============
+
+- puppetlabs/apt
+- puppetlabs/apache
+- puppetlabs/stdlib
+
 Usage
 ===============
 
